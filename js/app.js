@@ -15,4 +15,14 @@ btn.addEventListener('click', function(evt){
   }
 })
 
+const resetBtn = document.getElementById('reset')
+
+btn.addEventListener('click', function(evt){
+
+})
+
+function logReset(resetBtn){
+  reset.textContent = `It's a new day! Time to make a new list.`}
+
+
 console.log()
